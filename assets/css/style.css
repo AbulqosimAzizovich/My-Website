@@ -836,6 +836,11 @@ welcome
 features
 --------------------------------------------- 
 */
+
+#features{
+  background-image: url(../images/bkfg.jpg);
+}
+
 .features-small-item {
   cursor: pointer;
   display: block;
