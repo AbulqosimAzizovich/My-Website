@@ -194,7 +194,7 @@ body {
   font-weight: 500;
   font-size: 24px;
   line-height: 42px;
-  color: #1e1e1e;
+  color: #8ad2de;
   letter-spacing: 0.25px;
   margin-bottom: 30px;
   position: relative;
@@ -240,7 +240,7 @@ body {
 .left-text {
   font-weight: 400;
   font-size: 16px;
-  color: #777;
+  color: #b2b2b2;
   line-height: 28px;
   letter-spacing: 1px;
 }
@@ -837,8 +837,15 @@ features
 --------------------------------------------- 
 */
 
-#features{
+.rounded{
+  filter: contrast(12.5%);
+
+}
+
+.umumiy{
   background-image: url(../images/bkfg.jpg);
+  background-size: cover;
+  background-position: center calc(50% - 149px);
 }
 
 .features-small-item {
@@ -948,7 +955,8 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.png);
+  background-image: url(../images/coofee.jpg);
+  background-size: cover;
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -1004,7 +1012,7 @@ parallax & home seperator
 
 .mini .mini-content .mini-box {
   display: block;
-  background: #fff;
+  background: #cfcfcf;
   padding: 20px;
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
