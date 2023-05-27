@@ -171,7 +171,7 @@ body {
   position: relative;
   padding-top: 100px;
   padding-bottom: 80px;
-
+  background-color: #3B566E;
 }
 
 .section.colored {
@@ -207,7 +207,7 @@ body {
 .center-heading .section-title {
   font-weight: 500;
   font-size: 28px;
-  color: #1e1e1e;
+  color: #f5eded;
   letter-spacing: 1.75px;
   line-height: 38px;
   margin-bottom: 20px;
@@ -233,7 +233,7 @@ body {
 
 .center-text p {
   font-size: 15px;
-  color: #777;
+  color: #f2ebeb;
   margin-bottom: 30px;
 }
 
@@ -384,7 +384,7 @@ a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: #3d09ea;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -395,7 +395,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #58caff;
 }
 
 button.main-button {
@@ -720,7 +720,8 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/4230678.jpg);
+  background-color: #3B566E;
+  /* background-image: url(../images/4230678.jpg); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -843,7 +844,8 @@ features
 }
 
 .umumiy{
-  background-image: url(../images/bkfg.jpg);
+  background-color: #3B566E;
+  /* background-image: url(../images/bkfg.jpg); */
   background-size: cover;
   background-position: center calc(50% - 149px);
 }
@@ -955,7 +957,8 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/coofee.jpg);
+  background-color: #3B566E;
+  /* background-image: url(../images/coofee.jpg); */
   background-size: cover;
   z-index: 2;
   top: -20%;
@@ -1079,7 +1082,8 @@ parallax & home seperator
   width: 140%;
   height: 140%;
   opacity: .90;
-  background-image: url(../images/fun-facts-bg.png);
+  background-color: #3B566E;
+  /* background-image: url(../images/fun-facts-bg.png); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -1112,7 +1116,7 @@ parallax & home seperator
   height: 32px;
   top: 160px;
   left: 70%;
-  background: url(../images/circle-dec.png) center center no-repeat;
+  /* background: url(../images/circle-dec.png) center center no-repeat; */
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1130,7 +1134,8 @@ parallax & home seperator
   height: 32px;
   top: 140px;
   left: 70%;
-  background: url(../images/circle-dec.png) center center no-repeat;
+  background-color: #3B566E;
+  /* background: url(../images/circle-dec.png) center center no-repeat; */
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -1282,7 +1287,7 @@ team
   display: block;
   font-weight: 400;
   font-size: 15px;
-  color: #ff589e;
+  color: #58caff;
   letter-spacing: 0.25px;
 }
 
@@ -1321,7 +1326,7 @@ pricing
 }
 
 .pricing-item.active .pricing-body .price-wrapper {
-  background-color: #ff589e;
+  background-color: #58d5ff;
 }
 
 .pricing-item.active .pricing-body .price-wrapper .currency {
@@ -1448,7 +1453,7 @@ blog
 .blog-post-thumb h3 a {
   font-weight: 500;
   font-size: 18px;
-  color: #1e1e1e;
+  color: #fefdfd;
   letter-spacing: 0.25px;
   line-height: 26px;
   -webkit-transition: all 0.3s ease 0s;
@@ -1458,13 +1463,13 @@ blog
 }
 
 .blog-post-thumb h3 a:hover {
-  color: #ff589e;
+  color: #58b4ff;
 }
 
 .blog-post-thumb .text {
   font-weight: 400;
   font-size: 13px;
-  color: #777;
+  color: #fdf5f5;
   letter-spacing: 0.26px;
   line-height: 26px;
   margin-bottom: 15px;
@@ -1498,12 +1503,13 @@ contact
 
 #contact-us {
   padding: 160px 0px;
+  background-color: #3b566e8b;
 }
 
 #contact-us h5 {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
-  color: #1e1e1e;
+  color: #f4f2f2;
   letter-spacing: 0.25px;
   line-height: 26px;
 }
@@ -1518,6 +1524,7 @@ contact
 
 .contact-text p {
   margin-bottom: 28px;
+  color: white;
 }
 
 .contact-form input,
@@ -1549,7 +1556,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  background-image: linear-gradient(127deg, #18113f 0%, #04c9ff 91%);
   padding-top: 30px;
 }
 
@@ -1619,7 +1626,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(135deg, #a759d1 0%, #8261ee 100%);
+  background-image: linear-gradient(135deg, #0a054a 0%, #14ccec 100%);
   left: 0;
   right: 0;
   top: 0;
@@ -1698,4 +1705,8 @@ preloader
   100% {
     opacity: 0;
   }
+}
+
+#pricing-plans{
+  background-color: #3B566E;
 }
