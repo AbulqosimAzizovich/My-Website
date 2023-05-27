@@ -416,7 +416,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: #58d0ff;
 }
 
 
@@ -1588,7 +1588,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff589e;
+  background-color: #58b9ff;
   color: #fff;
 }
 
