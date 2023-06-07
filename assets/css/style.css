@@ -171,11 +171,7 @@ body {
   position: relative;
   padding-top: 100px;
   padding-bottom: 80px;
-  background-color: #3B566E;
-}
-
-.section.colored {
-  background: #f2f2fe;
+  background-color: transparent;
 }
 
 .hr {
@@ -514,7 +510,7 @@ header
 }
 
 .header-area .main-nav .nav li a:hover {
-  color: #374fab;
+  color: #007bff;
 }
 
 .header-area .main-nav .menu-trigger {
@@ -626,7 +622,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #374fab;
+  color: #007bff;
 }
 
 @media (max-width: 1200px) {
@@ -720,8 +716,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #3B566E;
-  /* background-image: url(../images/4230678.jpg); */
+  /* background-image: linear-gradient(127deg, #3f1133 0%, #8204ff 91%); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -844,8 +839,6 @@ features
 }
 
 .umumiy{
-  background-color: #3B566E;
-  /* background-image: url(../images/bkfg.jpg); */
   background-size: cover;
   background-position: center calc(50% - 149px);
 }
@@ -1501,9 +1494,13 @@ contact
 --------------------------------------------- 
 */
 
+.background{
+  background-image: linear-gradient(127deg, #3f1133 0%, #8204ff 91%);
+}
+
 #contact-us {
   padding: 160px 0px;
-  background-color: #3b566e8b;
+  /* background-color: #3b566e8b; */
 }
 
 #contact-us h5 {
@@ -1556,7 +1553,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #18113f 0%, #04c9ff 91%);
+  /* background-image: linear-gradient(127deg, #18113f 0%, #04c9ff 91%); */
   padding-top: 30px;
 }
 
