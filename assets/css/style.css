@@ -186,6 +186,11 @@ body {
   color: #ffffff;
 }
 
+.inst{
+  position: relative;
+  left: -100px;
+}
+
 .left-heading .section-title {
   font-weight: 500;
   font-size: 24px;
@@ -355,25 +360,6 @@ body {
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
   }
-}
-
-a.main-button-slider {
-  font-size: 13px;
-  border-radius: 20px;
-  padding: 12px 20px;
-  background-color: #4b29a9;
-  ;
-  text-transform: uppercase;
-  color: #fff;
-  letter-spacing: 0.25px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-a.main-button-slider:hover {
-  background-color: #8261ee;
 }
 
 a.main-button {
