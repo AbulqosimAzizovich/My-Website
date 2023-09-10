@@ -1,3 +1,13 @@
+@keyframes bg-move {
+  0% {
+    background-position: -500px 0;
+  }
+
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
 .intro__wrapper {
   .intro__general {
     text-align: center;
@@ -58,6 +68,7 @@
         align-items: center;
         gap: 30px;
         margin-top: 50px;
+
         .home__download--btn {
           display: flex;
           align-items: center;
@@ -91,7 +102,14 @@
           padding: 15px 75px;
           border-radius: 5px;
           border: 1px solid var(--White, #fff);
-
+          background-image: linear-gradient(
+            270deg,
+            rgba(100, 181, 239, 0) 48.44%,
+            #64b5ef 75.52%,
+            rgba(100, 181, 239, 0) 100%
+          );
+          background-repeat: no-repeat;
+          animation: bg-move linear 5s infinite;
           p {
             color: var(--White, #fff);
             text-align: justify;
@@ -140,6 +158,14 @@
         border: 1px solid var(--Pr-Lavender, #7456ff);
         background: rgba(116, 86, 255, 0.1);
         padding: 15px 20px;
+        background-image: linear-gradient(
+          270deg,
+          rgba(100, 181, 239, 0) 48.44%,
+          #64b5ef 75.52%,
+          rgba(100, 181, 239, 0) 100%
+        );
+        background-repeat: no-repeat;
+        animation: bg-move linear 5s infinite;
         &:active {
           background: rgba(116, 86, 255, 0.3);
         }
