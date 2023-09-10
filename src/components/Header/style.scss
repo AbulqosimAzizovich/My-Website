@@ -1,0 +1,108 @@
+header {
+  margin: 40px auto;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__res {
+  display: none;
+}
+
+.logo {
+  h1 {
+    font-family: Poppins-SemiBold;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: white;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px #ffffff;
+  }
+}
+
+.header__list {
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    li {
+      font-family: Poppins-SemiBold;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      color: white;
+      .header__link {
+        position: relative;
+        text-decoration: none;
+        &::before {
+          background: rgba(116, 86, 255, 0.6);
+          border-radius: 3px;
+          content: "";
+          inset: 0;
+          position: absolute;
+          transform: scaleX(0);
+          transform-origin: right;
+          transition: transform 0.5s ease-in-out;
+          z-index: -1;
+        }
+        &:hover {
+          color: rgb(255, 255, 255);
+        }
+        &:hover::before {
+          transform: scaleX(1);
+          transform-origin: left;
+        }
+      }
+      button {
+        padding: 15px;
+        border-radius: 5px;
+        border: 2px solid var(--Pr-Lavender, #7456ff);
+        color: var(--Pr-Lavender, #7456ff);
+        font-family: Poppins-Semibold;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 855px) {
+  .logo {
+    h1 {
+      font-family: Poppins-SemiBold;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      cursor: pointer;
+    }
+  }
+
+  .header__list {
+    display: none;
+  }
+
+  .header__res {
+    display: block;
+    button {
+      width: 35px;
+      height: 35px;
+      padding: 2px;
+      display: grid;
+      place-content: center;
+      border-radius: 6px;
+      &:active {
+        background: rgba(199, 182, 182, 0.664);
+      }
+    }
+  }
+}
