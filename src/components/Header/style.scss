@@ -93,6 +93,8 @@ header {
 
   .header__res {
     display: block;
+    position: relative;
+    // overflow-x: hidden;
     button {
       width: 35px;
       height: 35px;
@@ -100,8 +102,71 @@ header {
       display: grid;
       place-content: center;
       border-radius: 6px;
+      position: relative;
+      z-index: 2;
       &:active {
         background: rgba(199, 182, 182, 0.664);
+      }
+    }
+
+    .menu__rs {
+      background: rgba(116, 86, 255, 0.1);
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      padding: 15px;
+      border-radius: 15px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: 1;
+      ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+
+        li {
+          font-family: Poppins-SemiBold;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          color: white;
+          .header__link {
+            position: relative;
+            text-decoration: none;
+            &::before {
+              background: rgba(116, 86, 255, 0.6);
+              border-radius: 3px;
+              content: "";
+              inset: 0;
+              position: absolute;
+              transform: scaleX(0);
+              transform-origin: right;
+              transition: transform 0.5s ease-in-out;
+              z-index: -1;
+            }
+            &:hover {
+              color: rgb(255, 255, 255);
+            }
+            &:hover::before {
+              transform: scaleX(1);
+              transform-origin: left;
+            }
+          }
+          button {
+            padding: 15px;
+            border-radius: 5px;
+            border: 2px solid var(--Pr-Lavender, #7456ff);
+            color: var(--Pr-Lavender, #7456ff);
+            font-family: Poppins-Semibold;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+          }
+        }
       }
     }
   }

@@ -49,7 +49,7 @@
     justify-content: space-between;
     gap: 70px;
     margin: 70px 5px;
-    
+
     .left {
       width: 50%;
       .intro__title {
@@ -134,6 +134,9 @@
     .right {
       width: 50%;
       margin-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       h3 {
         color: #fff;
         font-family: Poppins-Bold;
@@ -182,4 +185,112 @@
       }
     }
   }
+}
+
+@media only screen and (max-width: 1297px) {
+  .intro__wrapper {
+    .home__general {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      flex-direction: column-reverse;
+      gap: 20px;
+      .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .intro__title {
+          p {
+            text-align: center;
+          }
+        }
+
+        .home__buttons {
+          margin-top: 30px;
+        }
+      }
+
+      .right {
+        width: 100%;
+
+        .res_h {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          a {
+            width: 40%;
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 855px) {
+  .intro__wrapper {
+    .intro__general {
+      font-size: 30px;
+    }
+
+    .home__title {
+      font-size: 46px;
+    }
+
+    .general__end {
+      font-size: 16px;
+    }
+
+    .home__general {
+      margin: 30px auto;
+
+      .left {
+        .intro__title > p {
+          font-size: 16px;
+        }
+
+        .home__buttons {
+          .home__download--btn {
+            padding: 10px 15px;
+            span {
+              font-size: 16px;
+            }
+          }
+
+          .home__btn {
+            padding: 10px 65px;
+            p {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+
+      .right {
+        h3 {
+          font-size: 24px;
+        }
+
+        .res_h {
+          a {
+            padding: 15px;
+            .contact {
+              font-size: 16px;
+            }
+
+            i {
+              font-size: 24px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 642px) {
+  
+  
 }

@@ -1,9 +1,10 @@
 import { NavLink } from "react-router-dom";
-import menu from "../../assets/images/svg/bx-menu.svg"
+import { useState } from "react";
 import "./style.scss";
-
+import menu from "../../assets/images/svg/bx-menu.svg";
 
 const index = () => {
+  const [menu, setMenu] = useState(true);
   return (
     <header>
       <div className="container">
@@ -41,9 +42,47 @@ const index = () => {
           </div>
 
           <div className="header__res">
-            <button>
-              <img src={menu} alt="Menu" />
+            <button
+              onClick={() => setMenu(!menu)}
+              style={menu ? { display: "block" } : { display: "none" }}
+            >
+              <i className="bx bx-menu text-white text-[30px]"></i>
             </button>
+
+            <button
+              onClick={() => setMenu(!menu)}
+              style={menu ? { display: "none" } : { display: "block" }}
+            >
+              <i class="bx bx-x text-white text-[30px]"></i>
+            </button>
+
+            <div
+              className="menu__rs"
+              style={menu ? { right: "-250px" } : { transform: "0px" }}
+            >
+              <ul>
+                <li>
+                  <NavLink className="header__link" to="/">
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="header__link" to="/about">
+                    About
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="header__link" to="/project">
+                    Project
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="header__link" to="/blog">
+                    Blog
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

@@ -68,40 +68,38 @@ const Home = () => {
           <div className="right">
             <h3>Find Me On</h3>
 
-            <div>
-              <div className="flex items-center gap-[20px] flex-wrap">
-                <a
-                  href="https://www.facebook.com/profile.php?id=61550712167541"
-                  className="contact__btn flex items-center gap-x-2"
-                >
-                  <i className="bx bxl-facebook-circle text-[28px] text-sky-600"></i>
-                  <p className="contact">Facebook</p>
-                </a>
+            <div className="res_h flex items-center gap-[20px] flex-wrap">
+              <a
+                href="https://www.facebook.com/profile.php?id=61550712167541"
+                className="contact__btn flex items-center gap-x-2"
+              >
+                <i className="bx bxl-facebook-circle text-[28px] text-sky-600"></i>
+                <p className="contact">Facebook</p>
+              </a>
 
-                <a
-                  href="https://t.me/SD6639"
-                  className="contact__btn flex items-center gap-x-2"
-                >
-                  <i className="bx bxl-telegram text-[28px] text-sky-400"></i>
-                  <p className="contact">Telegram</p>
-                </a>
+              <a
+                href="https://t.me/SD6639"
+                className="contact__btn flex items-center gap-x-2"
+              >
+                <i className="bx bxl-telegram text-[28px] text-sky-400"></i>
+                <p className="contact">Telegram</p>
+              </a>
 
-                <a
-                  href="https://www.instagram.com/developer_azizovich/#"
-                  className="contact__btn flex items-center gap-x-2"
-                >
-                  <i className="bx bxl-instagram text-[28px] text-[#c92bb7]"></i>
-                  <p className="contact">Instagram</p>
-                </a>
+              <a
+                href="https://www.instagram.com/developer_azizovich/#"
+                className="contact__btn flex items-center gap-x-2"
+              >
+                <i className="bx bxl-instagram text-[28px] text-[#c92bb7]"></i>
+                <p className="contact">Instagram</p>
+              </a>
 
-                <a
-                  href="https://www.linkedin.com/in/abdulqosim-azizovich-0a1202282/"
-                  className="contact__btn flex items-center gap-x-2"
-                >
-                  <i className="bx bxl-linkedin text-[28px] text-sky-600"></i>
-                  <p className="contact">Linkedin</p>
-                </a>
-              </div>
+              <a
+                href="https://www.linkedin.com/in/abdulqosim-azizovich-0a1202282/"
+                className="contact__btn flex items-center gap-x-2"
+              >
+                <i className="bx bxl-linkedin text-[28px] text-sky-600"></i>
+                <p className="contact">Linkedin</p>
+              </a>
             </div>
           </div>
         </div>
