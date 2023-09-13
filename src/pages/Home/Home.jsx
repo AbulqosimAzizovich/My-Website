@@ -20,7 +20,11 @@ const Home = () => {
                   autoStart: true,
                   loop: true,
                   delay: 100,
-                  strings: ["Abdulqosim", " a Web developer", " a Python developer"],
+                  strings: [
+                    "Abdulqosim",
+                    " a Web developer",
+                    " a Python developer",
+                  ],
                 }}
               />
             </span>
@@ -66,7 +70,10 @@ const Home = () => {
 
             <div>
               <div className="flex items-center gap-[20px] flex-wrap">
-                <a href="" className="contact__btn flex items-center gap-x-2">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61550712167541"
+                  className="contact__btn flex items-center gap-x-2"
+                >
                   <i className="bx bxl-facebook-circle text-[28px] text-sky-600"></i>
                   <p className="contact">Facebook</p>
                 </a>

@@ -5,7 +5,8 @@ import Home from "../pages/Home/Home";
 import About from "./../pages/About/About";
 import Error from "./../pages/Error/Error";
 import Layout from "./../pages/Layout";
-import Project from './../pages/Project/Project';
+import Project from "./../pages/Project/Project";
+import Blog from './../pages/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/project",
         element: <Project />,
+      },
+      {
+        path: "/blog",
+        element: <Blog />,
       },
     ],
   },

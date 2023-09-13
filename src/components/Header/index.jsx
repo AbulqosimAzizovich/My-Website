@@ -19,17 +19,17 @@ const index = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink className="header__link" to="/">
+                <NavLink className="header__link" to="/about">
                   About
                 </NavLink>
               </li>
               <li>
-                <NavLink className="header__link" to="/">
+                <NavLink className="header__link" to="/project">
                   Project
                 </NavLink>
               </li>
               <li>
-                <NavLink className="header__link" to="/">
+                <NavLink className="header__link" to="/blog">
                   Blog
                 </NavLink>
               </li>
