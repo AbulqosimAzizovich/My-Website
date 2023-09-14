@@ -4,9 +4,7 @@ import docs from "../../assets/images/svg/docs.svg";
 import "./style.scss";
 
 const Home = () => {
-  const downloadFile = () => {
-    window.location.href = { document };
-  };
+
   return (
     <div className="container">
       <div className="intro__wrapper">
