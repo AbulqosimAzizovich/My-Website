@@ -292,10 +292,121 @@
 
 @media only screen and (max-width: 642px) {
   .intro__wrapper{
+    .intro__general{
+      font-size: 28px;
+    }
 
     .home__title{
       font-size: 34px;
     }
   }
-  
+}
+
+@media  only screen and (max-width: 516px) {
+  .intro__wrapper{
+    .intro__general{
+      font-size: 24px;
+    }
+
+    .home__title{
+      font-size: 28px;
+    }
+
+    .home__general{
+      .left{
+        .intro__title p {
+          font-size: 14px;
+        }
+
+        .home__buttons{
+          .home__download--btn span{
+            font-size: 14px;
+            line-height: 15px;
+          }
+
+          .home__download--btn img{
+            width: 14px;
+          }
+          .home__btn{
+            padding: 6px 60px;
+          }
+          .home__btn p{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media  only screen and (max-width: 420px) {
+  .intro__wrapper{
+    .intro__general{
+      font-size: 17px;
+    }
+
+    .home__title{
+      font-size: 20px;
+    }
+
+    .general__end{
+      font-size: 14px;
+    }
+
+    .home__general{
+      flex-direction: column;
+      .right{
+        width: 100%;
+        margin: 30px 0;
+        h3{
+          display: none;
+        }
+        .res_h{
+          flex-wrap: nowrap;
+          gap: 10px;
+          width: 100%;
+          padding: 0 50px;
+          .contact__btn{
+            border-radius: 100%;
+            width: 50px;
+            height: 50px;
+            animation: none;
+            background-image: none;
+            .contact{
+              display: none;
+            }
+          }
+        }
+      }
+
+      .left{
+        .intro__title p{
+          font-size: 12px;
+        }
+        .home__buttons{
+          gap: 10px;
+          flex-direction: column;
+
+          .home__download--btn{
+            width: 100%;
+            padding: 15px 25px;
+            span{
+              font-size: 18px;
+            }
+          }
+
+          .home__btn{
+            padding: 8px 75px;
+            p{
+              font-size: 18px;
+            }
+          }
+        }
+
+
+
+
+      }
+    }
+  }
 }
