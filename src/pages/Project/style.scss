@@ -13,7 +13,7 @@
       font-weight: 600;
       line-height: normal;
     }
-    h1 {
+    marquee {
       position: absolute;
       text-align: justify;
       font-family: Poppins-SemiBold;
@@ -190,4 +190,12 @@
       }
     }
   }
+}
+
+
+@media  only screen and (max-width: 1160px) {
+.project__wrapper{
+  
+}
+  
 }

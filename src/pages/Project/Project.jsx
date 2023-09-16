@@ -8,7 +8,7 @@ const Project = () => {
       <div className="container">
         <div className="project__wrapper">
           <div className="pr__title">
-            <h1>MY PROJECT</h1>
+            <marquee>MY PROJECT</marquee>
             <p>Latest Project</p>
           </div>
 
