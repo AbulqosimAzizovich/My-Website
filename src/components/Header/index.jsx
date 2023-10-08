@@ -58,7 +58,11 @@ const index = () => {
 
             <div
               className="menu__rs"
-              style={menu ? { right: "-250px" } : { transform: "0px" }}
+              style={
+                menu
+                  ? { transform: "translateX(725px)" }
+                  : { transform: "translateX(0px)" }
+              }
             >
               <ul>
                 <li>

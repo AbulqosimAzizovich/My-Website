@@ -160,15 +160,13 @@
       .contact__btn {
         border-radius: 10px;
         border: 1px solid var(--Pr-Lavender, #7456ff);
-        background: rgba(116, 86, 255, 0.1);
         padding: 15px 20px;
-        background-image: linear-gradient(
-          270deg,
-          rgba(100, 181, 239, 0) 48.44%,
-          #64b5ef 75.52%,
-          rgba(100, 181, 239, 0) 100%
-        );
-        background-repeat: no-repeat;
+        background: rgba(116, 86, 255, 0.1) linear-gradient(
+                        270deg,
+                        rgba(100, 181, 239, 0) 48.44%,
+                        #64b5ef 75.52%,
+                        rgba(100, 181, 239, 0) 100%
+        ) no-repeat;
         animation: bg-move linear 5s infinite;
         &:active {
           background: rgba(116, 86, 255, 0.3);
