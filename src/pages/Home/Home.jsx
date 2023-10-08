@@ -35,7 +35,7 @@ const Home = () => {
           <div className="left">
             <div className="intro__title">
               <p>
-                Hi there, my name is Abdulqosim and I am 19 years old. I am
+                Hi, my name is Abdulqosim and I am 19 years old. I am
                 currently a 2nd year student of Tashkent University of
                 Information Technologies. And in addition, I successfully
                 completed the Bootcamp-Frontend course of the "Najot Ta'lim"
