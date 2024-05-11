@@ -44,6 +44,7 @@ header {
         &::before {
           background: rgba(116, 86, 255, 0.6);
           border-radius: 3px;
+          height: 3px;
           content: "";
           inset: 0;
           position: absolute;
@@ -114,7 +115,7 @@ header {
 .menu__rs {
   display: flex;
   justify-content: start;
-  padding: 4px;
+  padding: 15px;
   border-radius: 15px;
   ul {
     display: flex;
@@ -140,7 +141,7 @@ header {
         align-items: center;
         gap: 10px;
         &:active {
-          background: rgba(54, 10, 251, 0.005);
+          background: rgba(117, 86, 255, 0.005);
         }
       }
       button {

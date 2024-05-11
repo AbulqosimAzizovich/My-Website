@@ -18,7 +18,7 @@ const index = () => {
       <div className="container">
         <div className="header__wrapper">
           <div className="logo">
-            <h1>Ahi</h1>
+            <h1>Axi</h1>
           </div>
           <div className="header__list">
             <ul>

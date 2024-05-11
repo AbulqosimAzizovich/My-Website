@@ -115,6 +115,9 @@
           );
           background-repeat: no-repeat;
           animation: bg-move linear 5s infinite;
+          &:hover {
+            opacity: 0.8;
+          }
           p {
             color: var(--White, #fff);
             text-align: justify;
@@ -164,8 +167,9 @@
       .contact__btn {
         border-radius: 10px;
         width: 30%;
-        border: 1px solid var(--Pr-Lavender, #7456ff);
         padding: 15px 20px;
+        border: 1px solid var(--Pr-Lavender, #7456ff);
+        animation: bg-move linear 5s infinite;
         background: rgba(116, 86, 255, 0.1)
           linear-gradient(
             270deg,
@@ -174,7 +178,9 @@
             rgba(100, 181, 239, 0) 100%
           )
           no-repeat;
-        animation: bg-move linear 5s infinite;
+        &:hover {
+          opacity: 0.8;
+        }
         &:active {
           background: rgba(116, 86, 255, 0.3);
         }
