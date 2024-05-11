@@ -3,27 +3,19 @@ import "./style.scss";
 
 const Error = () => {
   return (
-    <section class="page_404">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 ">
-            <div class="col-sm-10 col-sm-offset-1  text-center">
-              <div class="four_zero_four_bg">
-                <h1 class="text-center ">
-                  404 <br />
-                  not found
-                </h1>
-              </div>
-
-              <div class="contant_box_404">
-                <h3 class="h2">Sayt hozirda ishlab chiqilmoqda </h3>
-                <h3>The site is currently under development</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div className="container">
+      <h1 className="my-4"></h1>
+      <iframe
+        style={{ borderRadius: "12px", backgroundColor: "red !important" }}
+        src="https://open.spotify.com/embed/track/6Wehv77PezqwbcY5fAdkoz?utm_source=generator&theme=0"
+        width="100%"
+        height="352"
+        frameBorder="0"
+        allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+      ></iframe>
+    </div>
   );
 };
 

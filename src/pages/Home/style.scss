@@ -61,7 +61,7 @@
           font-style: normal;
           font-weight: 400;
           line-height: normal;
-          span{
+          span {
             color: #5f3ef3;
             cursor: pointer;
           }
@@ -163,14 +163,17 @@
 
       .contact__btn {
         border-radius: 10px;
+        width: 30%;
         border: 1px solid var(--Pr-Lavender, #7456ff);
         padding: 15px 20px;
-        background: rgba(116, 86, 255, 0.1) linear-gradient(
-                        270deg,
-                        rgba(100, 181, 239, 0) 48.44%,
-                        #64b5ef 75.52%,
-                        rgba(100, 181, 239, 0) 100%
-        ) no-repeat;
+        background: rgba(116, 86, 255, 0.1)
+          linear-gradient(
+            270deg,
+            rgba(100, 181, 239, 0) 48.44%,
+            #64b5ef 75.52%,
+            rgba(100, 181, 239, 0) 100%
+          )
+          no-repeat;
         animation: bg-move linear 5s infinite;
         &:active {
           background: rgba(116, 86, 255, 0.3);
@@ -291,48 +294,47 @@
   }
 }
 
-
 @media only screen and (max-width: 642px) {
-  .intro__wrapper{
-    .intro__general{
+  .intro__wrapper {
+    .intro__general {
       font-size: 28px;
     }
 
-    .home__title{
+    .home__title {
       font-size: 34px;
     }
   }
 }
 
-@media  only screen and (max-width: 516px) {
-  .intro__wrapper{
-    .intro__general{
+@media only screen and (max-width: 516px) {
+  .intro__wrapper {
+    .intro__general {
       font-size: 24px;
     }
 
-    .home__title{
+    .home__title {
       font-size: 28px;
     }
 
-    .home__general{
-      .left{
+    .home__general {
+      .left {
         .intro__title p {
           font-size: 14px;
         }
 
-        .home__buttons{
-          .home__download--btn span{
+        .home__buttons {
+          .home__download--btn span {
             font-size: 14px;
             line-height: 15px;
           }
 
-          .home__download--btn img{
+          .home__download--btn img {
             width: 14px;
           }
-          .home__btn{
+          .home__btn {
             padding: 6px 60px;
           }
-          .home__btn p{
+          .home__btn p {
             font-size: 14px;
           }
         }
@@ -341,73 +343,69 @@
   }
 }
 
-@media  only screen and (max-width: 420px) {
-  .intro__wrapper{
-    .intro__general{
+@media only screen and (max-width: 420px) {
+  .intro__wrapper {
+    .intro__general {
       font-size: 17px;
     }
 
-    .home__title{
+    .home__title {
       font-size: 20px;
     }
 
-    .general__end{
+    .general__end {
       font-size: 14px;
     }
 
-    .home__general{
+    .home__general {
       flex-direction: column;
-      .right{
+      .right {
         width: 100%;
         margin: 30px 0;
-        h3{
+        h3 {
           display: none;
         }
-        .res_h{
+        .res_h {
           flex-wrap: nowrap;
           gap: 10px;
           width: 100%;
           padding: 0 50px;
-          .contact__btn{
+          .contact__btn {
             border-radius: 100%;
             width: 50px;
             height: 50px;
             animation: none;
             background-image: none;
-            .contact{
+            .contact {
               display: none;
             }
           }
         }
       }
 
-      .left{
-        .intro__title p{
+      .left {
+        .intro__title p {
           font-size: 12px;
         }
-        .home__buttons{
+        .home__buttons {
           gap: 10px;
           flex-direction: column;
 
-          .home__download--btn{
+          .home__download--btn {
             width: 100%;
             padding: 15px 25px;
-            span{
+            span {
               font-size: 18px;
             }
           }
 
-          .home__btn{
+          .home__btn {
             padding: 8px 75px;
-            p{
+            p {
               font-size: 18px;
             }
           }
         }
-
-
-
-
       }
     }
   }

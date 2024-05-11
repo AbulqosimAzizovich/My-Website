@@ -35,13 +35,13 @@ const Home = () => {
           <div className="left">
             <div className="intro__title">
               <p>
-                Hi, my name is Abdulqosim and I am 19 years old. I am
-                currently a 2nd year student of Tashkent University of
-                Information Technologies. And in addition, I successfully
-                completed the Bootcamp-Frontend course of the "Najot Ta'lim"
-                training center. My current knowledge is <span>HTML 5</span>,
-                <span>CSS</span>, <span>SCSS</span>, <span>Tailwind CSS</span>,
-                <span>Bootstrap</span>, <span>Python</span>, <span>C</span>,
+                Hi, my name is Abdulqosim and I am 19 years old. I am currently
+                a 2nd year student of Tashkent University of Information
+                Technologies. And in addition, I successfully completed the
+                Bootcamp-Frontend course of the "Najot Ta'lim" training center.
+                My current knowledge is <span>HTML 5</span>, <span>CSS</span>,{" "}
+                <span>SCSS</span>, <span>Tailwind CSS</span>,{" "}
+                <span>Bootstrap</span>, <span>Python</span>, <span>C</span>,{" "}
                 <span>C++</span>, <span>Javascript</span>, <span>MySql</span>,
                 <span>ReactJS</span>, and <span>TypeScript</span>. And I can use
                 Material UI, Ant Design, Flowbite and MD bootstrap libraries. As
@@ -78,7 +78,7 @@ const Home = () => {
               </a>
 
               <a
-                href="https://t.me/SD6639"
+                href="https://t.me/havksawy"
                 className="contact__btn flex items-center gap-x-2"
               >
                 <i className="bx bxl-telegram text-[28px] text-sky-400"></i>
@@ -86,7 +86,7 @@ const Home = () => {
               </a>
 
               <a
-                href="https://www.instagram.com/developer_azizovich/#"
+                href="https://www.instagram.com/havksawy"
                 className="contact__btn flex items-center gap-x-2"
               >
                 <i className="bx bxl-instagram text-[28px] text-[#c92bb7]"></i>
